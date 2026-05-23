@@ -1,0 +1,61 @@
+:root {
+  /* Font Families */
+  --font-headings: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* Common attributes */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Theme Variables */
+:root[data-theme='light'] {
+  --primary: #2d5a27;            /* Verde Folha Profundo (floresta) */
+  --primary-hover: #1f3f1b;
+  --primary-light: #f1f7f0;      /* Fundo verde suave */
+  --secondary: #b5893d;          /* Dourado Trigo */
+  --secondary-hover: #9c7330;
+  --secondary-light: #faf5eb;    /* Fundo trigo suave */
+  --bg-base: #f7f9f6;            /* Fundo principal orgânico (creme) */
+  --bg-card: #ffffff;            /* Fundo dos cartões */
+  --text-main: #242c25;          /* Texto principal escuro */
+  --text-muted: #5e6b60;         /* Texto secundário/suave */
+  --text-light: #ffffff;         /* Texto claro sobre fundo escuro */
+  --border-color: #e3ebd8;       /* Bordas orgânicas */
+  --shadow-sm: 0 4px 6px -1px rgba(45, 90, 39, 0.05), 0 2px 4px -1px rgba(45, 90, 39, 0.03);
+  --shadow-md: 0 10px 15px -3px rgba(45, 90, 39, 0.08), 0 4px 6px -2px rgba(45, 90, 39, 0.05);
+  --shadow-lg: 0 20px 25px -5px rgba(45, 90, 39, 0.12), 0 10px 10px -5px rgba(45, 90, 39, 0.08);
+  --accent: #10b981;             /* Verde Esmeralda Vibrante */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --overlay-bg: rgba(36, 44, 37, 0.4);
+}
+
+/* Dark Theme Variables */
+:root[data-theme='dark'] {
+  --primary: #5ec053;            /* Verde Folha Elétrico */
+  --primary-hover: #4ca642;
+  --primary-light: #0d1a0e;      /* Fundo floresta ultra profundo */
+  --secondary: #e6b356;          /* Dourado Trigo Quente */
+  --secondary-hover: #c49643;
+  --secondary-light: #1f1b13;    /* Fundo âmbar escuro */
+  --bg-base: #060907;            /* Fundo principal escuro orgânico */
+  --bg-card: #0d120e;            /* Fundo dos cartões escuro */
+  --text-main: #eef5ed;          /* Texto principal claro */
+  --text-muted: #8b9a8e;         /* Texto secundário suave */
+  --text-light: #060907;         /* Texto escuro sobre fundo claro */
+  --border-color: #172219;       /* Bordas escuras */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.7), 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  --accent: #34d399;             /* Esmeralda Elétrica */
+  --glass-bg: rgba(13, 18, 14, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --overlay-bg: rgba(0, 0, 0, 0.75);
+}

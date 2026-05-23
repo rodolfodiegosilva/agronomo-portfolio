@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+/* --- ARCHITECTURE MODULAR CSS IMPORTS --- */
+@import './styles/variables.css';
+@import './styles/reset.css';
+@import './styles/layout.css';
+@import './styles/components.css';
+@import './styles/sections.css';
+@import './styles/animations.css';
