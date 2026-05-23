@@ -802,6 +802,17 @@
 
 @media (max-width: 768px) {
   /* RESET & CONTAINER GENERAL PADDING SQUEEZE PREVENT */
+  section {
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .hero-image-wrapper, 
+  .hero-content {
+    animation: fadeIn 1.2s ease-out !important;
+    transform: none !important;
+  }
+
   .section-padding {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;

@@ -86,7 +86,7 @@ export default function Navbar({ theme, toggleTheme, lang, toggleLanguage, t }) 
             {/* Language Switch Button */}
             <button
               onClick={toggleLanguage}
-              className="theme-toggle"
+              className="theme-toggle hide-on-mobile"
               aria-label="Alternar idioma / Switch language"
               style={{ display: 'flex', gap: '4px', fontSize: '0.85rem', fontWeight: '800', width: 'auto', padding: '0 0.85rem' }}
             >

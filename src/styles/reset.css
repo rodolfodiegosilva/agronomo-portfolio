@@ -8,6 +8,8 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -18,11 +20,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  max-width: 100%;
   transition: background-color var(--transition-normal), color var(--transition-normal);
 }
 
 #root {
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -66,16 +71,16 @@ button, input, textarea, select {
   max-width: 95%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 @media (max-width: 768px) {
   .container {
-    width: 98%;
-    max-width: 98%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
